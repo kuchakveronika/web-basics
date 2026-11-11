@@ -1,0 +1,52 @@
+<!Doctype HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> моя перша форма </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <h1> Моя перша HTML форма </h1>
+    <form action="https://httpbin.org/post" method="POST">
+      <label for="name"> Ім’я: </label>
+      <input type="text" id="name" name=name>
+      <br>
+      <label> Дата народження:
+        <input type="date" name="birthdate">
+      </label>
+      <br>
+      <label for="email"> Імейл: </label>
+      <input type="email" id="email" name="email">
+      <br>
+      <label for="message"> Повідомлення: </label>
+      <textarea name="message" id="message"></textarea>
+      <br>
+      <label> ваші улюблені напої? <br>
+      <input type="checkbox" name="drink" value="cola"> кола <br>
+      <input type="checkbox" name="drink" value="water"> вода <br>
+      <input type="checkbox" name="drink" value="juice"> сік <br>
+      <input type="checkbox" name="drink" value="energy"> енергетик
+      </label>
+      <br>
+      <label> ваша національність?
+        <input type="radio" name="nationality" value="ua"> українець
+        <input type="radio" name="nationality" value="us"> американець
+        <input type="radio" name="nationality" value="uk"> британець
+      </label>
+      <br>
+      <button type="submit"> Надіслати </button>
+      <button type="reset"> очистити </button>
+    </form>
+    <br>
+    <picture>
+      <source media="(max-width=469px)" srcset="https://fastly.picsum.photos/id/96/300/500.jpg?hmac=kNMvrAtisOqgUnx5VpDUvgXCuQIaKjWjXScXYU4PpoQ">
+      <source media="(min-width=470px)" srcset="https://fastly.picsum.photos/id/665/1000/400.jpg?hmac=avw0ZvfRSRqFaO5j6cJe4WQHcyVjAWLVC46WrQxQSOs">
+      <img src="https://fastly.picsum.photos/id/6/500/500.jpg?hmac=BV78_cgdwZQNfQorKlCsS4-47_DG0MJ3GZqiDBfeHbI">
+  </body>
+</html>
+      
+      
+      
+      
